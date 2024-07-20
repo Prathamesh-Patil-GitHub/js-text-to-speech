@@ -1,0 +1,59 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #191714, #2234ae);
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    align-content: center;
+  }
+
+  .textarea {
+    width: 60vw;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    transition-duration: 0.5s;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+  }
+
+  .textarea:focus {
+    backdrop-filter: blur(20px);
+    background-color: rgba(62, 64, 170, 0.274);
+    transition-duration: 0.5s;
+    border-radius: 10px;
+  }
+
+  select {
+    width: 60vw;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    transition-duration: 0.5s;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+  }
+
+  select option {
+    width: 60vw;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.995);
+    text-indent: 25px;
+  }
